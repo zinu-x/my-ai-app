@@ -1,0 +1,5 @@
+INFO:root:你好
+INFO:httpx:HTTP Request: POST https://flag.smarttrot.com/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:root:content='你好！有什么我可以帮助你的吗？'
+ERROR:root:你好
+ERROR:root:content='你好！有什么我可以帮助你的吗？'
