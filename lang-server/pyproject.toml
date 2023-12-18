@@ -2,7 +2,7 @@
 name = "lang-server"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["yuanzhibang"]
 readme = "README.md"
 packages = [
     { include = "app" },
@@ -13,7 +13,7 @@ python = "^3.11"
 uvicorn = "^0.23.2"
 langserve = {extras = ["server"], version = ">=0.0.30"}
 pydantic = "<2"
-openai-functions-agent = {path = "packages/openai-functions-agent", develop = true}
+chatgpt_for_mylove = {path = "packages/chatgpt_for_mylove", develop = true}
 
 
 [tool.poetry.group.dev.dependencies]
